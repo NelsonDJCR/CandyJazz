@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Montserrat";
+}
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: a;
+}
+.container img {
+  width: 100%;
+  z-index: 1;
+}
+.contaner-text {
+  z-index: 4;
+  margin-top: 40vh;
+  position: absolute;
+  width: 60%;
+  margin-left: 20%;
+}
+.contaner-text p {
+  width: 100%;
+  margin: auto;
+  font-size: 1.5em;
+}
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+.container_btn{
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+}
+.btn_dowload {
+  background: chartreuse;
+  cursor: pointer;
+  position: fixed;
+  /* position: fixed; */
+  color: black;
+  width: 200px;
+  height: 40px;
+  z-index: 20;
+}

@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  background: #f0f0f0;
+  font-family: 'Montserrat';
+  /* position: absolute; */
+  margin-top: 50px;
+  
+}
+.contaner-footer{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1800px;
+    margin: auto;
+}
+.tiitel-footer {
+  padding: 5px;
+  font-family: 'Cursive';
+}
+.tittle-footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: 'Cinzel';
+}
+.footer1 {
+  width: 33.3%;
+  height: 400px;
+}
+.footer1 h2{
+    margin-left: 10px;
+}
+.footer1 p{
+    padding: 15px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+.footer2 {
+  width: 33.3%;
+  height: 400px;
+}
+.footer2 h2{
+    margin-left: 10px;
+}
+.footer2 p {
+    padding: 5px 15px;
+}
+.footer2 a{
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    line-height: 25px;
+}
+.a_soccial{
+    margin-left: 5px;
+    margin-top: -5px;
+    line-height: 20px;
+}
+.p1{
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+.footer3 {
+  width: 33.3%;
+  height: 400px;
+}
+.footer3 h2{
+    margin-left: 10px;
+}
+.footer3 img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+.footer_bottom {
+  background: #000000;
+  width: 100%;
+  height: 40px;
+}
+.container-icons{
+    justify-content: center;
+    text-align: center;
+}
+.container-icons img{
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.regla{
+    width: 730px;
+    height: 20px;
+    background: chocolate;
+}
+.bottom-footer{
+  width: 100%;
+  height: 30px;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  line-height: 25px;
+}
+
+
+@media screen and (max-width:767px) {
+     .contaner-footer {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1800px;
+        margin: auto;
+      }
+    .footer1 {
+        width: 100%;
+        height: 200px;
+      }
+      .footer2 {
+        width: 100%;
+        height: 250px;
+      }
+      .footer3 {
+        width: 100%;
+        height: 300px;
+      }
+}

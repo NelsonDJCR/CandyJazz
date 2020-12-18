@@ -1,0 +1,69 @@
+.line{
+    width: 100%;
+    height: 5px;
+    background: gray;
+    margin-top: 1px;
+    position: relative;
+}
+.state{
+    width: 3%;
+    height: 5px;
+    background: chartreuse;
+}
+.radio{
+    width: 12px;
+    position: absolute;
+    height: 12px;
+    background: chartreuse;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 3%;
+    margin-top: -8px;
+}
+.line2{
+    width: 100%;
+    height: 5px;
+    background: gray;
+    margin-top: 1px;
+    position: relative;
+}
+.state2{
+    width: 50%;
+    height: 5px;
+    background: chartreuse;
+}
+.radio2{
+    width: 12px;
+    position: absolute;
+    height: 12px;
+    background: chartreuse;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 50%;
+    margin-top: -8px;
+}
+.line3{
+    width: 100%;
+    height: 5px;
+    background: gray;
+    margin-top: 1px;
+    position: relative;
+}
+.state3{
+    width: 99%;
+    height: 5px;
+    background: chartreuse;
+}
+.radio3{
+    width: 12px;
+    position: absolute;
+    height: 12px;
+    background: chartreuse;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 95%;
+    margin-top: -8px;
+}
